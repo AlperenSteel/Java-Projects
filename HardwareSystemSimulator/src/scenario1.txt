@@ -1,0 +1,16 @@
+list ports
+addDev MPU6050 0 0
+addDev SparkFunMD 1 0
+addDev OLED 2 0
+addDev Bluetooth 3 0
+turnON 0
+turnON 1
+turnON 2
+turnON 3
+list ports
+setMotorSpeed 0 100
+readSensor 0
+writeWireless 0 test    
+readWireless 0
+printDisplay 0 hello
+exit
